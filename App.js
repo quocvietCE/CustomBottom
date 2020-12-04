@@ -4,14 +4,13 @@ import 'react-native-gesture-handler';
 
 import RootRouter from './src/navigation';
 import RootRouter2 from './src/navigation2';
+import RootRouter3 from './src/navigation3';
 
 const App = () => {
   return (
     <>
       <StatusBar barStyle="light-content" />
-      {/* <SafeAreaView style={styles.container}> */}
-      <RootRouter2 />
-      {/* </SafeAreaView> */}
+      <RootRouter3 />
     </>
   );
 };
